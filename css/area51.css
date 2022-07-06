@@ -1,0 +1,30 @@
+div {
+    color: gray ; 
+    background-color: red;
+    border: 1px solid black;
+}
+
+a {
+    color: red;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.italico {
+    font-style: italic;
+    font-family: fantasy;
+}
+
+#enviar {
+    background-color: aquamarine;
+}
+
+#limpar {
+    background-color: white;
+}
+body{
+    background-color: rgb(239, 192, 250);
+    font-family: cursive;
+}

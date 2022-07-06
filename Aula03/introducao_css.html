@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Introdução CSS3 </title>
+    <style>
+        p {
+            /* utilizando o nome do seletor, todos os seletores recebem esse estili */
+            background-color: #c1c1c1;
+        }
+
+        /* utilizando Ponto, todos os seletores que tenham o atribibuto class
+que contenha esse nome recebem o estilo. */
+        .destaque {
+            background-color: #2cf803;
+        }
+
+        #especifico {
+            /* utilizando #, apenas o seletor que tenha o atributo id="especifico" recebe esse estilo */
+            border: 1px solid black;
+        }
+    </style>
+    <link rel="stylesheet" href="/css/area51.css">
+</head>
+
+<body>
+    <a class="destaque" href="/index.html">Voltar a Página Inicial</a>
+    <hr>
+    <!-- estilo em linha é recomendado quando não passa de 3 atributos -->
+    <p style="color: red;background-color: black;font-weight: bold;">Vermelho</p>
+    <h1 style="color:pink ;background-color: cyan;font-weight: lighter;">Rosa</h1>
+    <span style=" border:1px dashed black;">Texto normal</span>
+    <ul style="font-weight: bold;background-color: red;width: 200px ;">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+    </ul>
+    <img style="height: 48px; ; width: 48px; ;border-radius: 50%;" src="/Aula01/internos/4sfdva.jpg" alt="">
+    <div style="text-align:center;border: 1px solid black;">
+        <p>A</p>
+        <p>B</p>
+        <p class="destaque">C</p>
+    </div>
+    <p>testando css</p>
+    <span class="destaque"> A certificação de metodologias que nos auxiliam a lidar com o início da atividade geral de
+        formação de
+        atitudes garante a contribuição de um grupo importante na determinação dos paradigmas corporativos. Por outro
+        lado, a expansão dos mercados mundiais cumpre um papel essencial na formulação do impacto na agilidade
+        decisória. Acima de tudo, é fundamental ressaltar que a competitividade nas transações comerciais deve passar
+        por modificações independentemente do levantamento das variáveis envolvidas.
+    </span>
+    <br />
+    <b class="destaque">cira meu seletor com a classe b.destaque criou um seletor de negrito com a classe destaque</b>
+    <br />
+    <i class="destaque">Hello</i>
+    <br />
+    <b id="especifico">seletor com a propriedade id</b>
+<br/><br/>
+    <div>blablablablablabla</div>
+</body>
+
+</html>
